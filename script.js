@@ -2,6 +2,13 @@ const repositoryList = document.querySelector("#repository-list");
 const statusMessage = document.querySelector("#status");
 
 function renderRepositories(repositories) {
+  if (repositories.length === 0) {
+    repositoryList.replaceChildren();
+    statusMessage.textContent = "No starred repositories yet.";
+    return;
+  }
+
+  statusMessage.textContent = "";
   const fragment = document.createDocumentFragment();
 
   for (const repository of repositories) {
