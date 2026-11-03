@@ -1,0 +1,20 @@
+[
+  {
+    "name": "freeCodeCamp",
+    "description": "Learn to code for free with millions of people.",
+    "url": "https://github.com/freeCodeCamp/freeCodeCamp",
+    "starred_at": "2025-02-14"
+  },
+  {
+    "name": "The Algorithms",
+    "description": "Open source resource for learning data structures and algorithms.",
+    "url": "https://github.com/TheAlgorithms/Python",
+    "starred_at": "2025-01-28"
+  },
+  {
+    "name": "30 seconds of code",
+    "description": "Short code snippets for all your development needs.",
+    "url": "https://github.com/30-seconds/30-seconds-of-code",
+    "starred_at": "2024-12-09"
+  }
+]
